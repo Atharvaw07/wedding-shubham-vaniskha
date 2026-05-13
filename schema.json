@@ -1,0 +1,306 @@
+{
+  "templateId": "terracottatemplate",
+  "templateName": "Terracotta & Gold",
+  "sections": [
+    {
+      "id": "general",
+      "label": "Global",
+      "icon": "settings",
+      "type": "flat",
+      "fields": [
+        {
+          "key": "petalsEnabled",
+          "label": "Falling petals animation",
+          "type": "toggle",
+          "description": "Soft terracotta & gold petals after guests enter the site."
+        }
+      ]
+    },
+    {
+      "id": "audio",
+      "label": "Background music",
+      "icon": "music",
+      "type": "object",
+      "fields": [
+        {
+          "key": "enabled",
+          "label": "Show music control",
+          "type": "toggle",
+          "description": "Floating button to play/pause background audio after the entry video."
+        },
+        {
+          "key": "src",
+          "label": "Background song",
+          "type": "audio-upload",
+          "uploadFolder": "audio",
+          "description": "Upload MP3 or other supported audio — stored on CDN and saved as URL."
+        }
+      ]
+    },
+    {
+      "id": "entry",
+      "label": "Entry video",
+      "icon": "play-circle",
+      "type": "object",
+      "fields": [
+        {
+          "key": "enabled",
+          "label": "Show entry gate",
+          "type": "toggle",
+          "description": "Full-screen tap-to-play video before the invitation opens."
+        },
+        {
+          "key": "videoSrc",
+          "label": "Envelope / Entry Video",
+          "type": "entry-video",
+          "description": "Guests tap to open your site. Choose which video plays on the entry screen. Hover to preview, click to select."
+        }
+      ]
+    },
+    {
+      "id": "hero",
+      "label": "Hero",
+      "icon": "heart",
+      "type": "object",
+      "fields": [
+        {
+          "key": "enabled",
+          "label": "Show hero section",
+          "type": "toggle"
+        },
+        {
+          "key": "ganeshImageUrl",
+          "label": "Top symbol image (e.g. Ganesh)",
+          "type": "image-upload",
+          "uploadFolder": "hero",
+          "description": "PNG with transparent background works best. Display size is fixed at 80×80px on the invite."
+        },
+        {
+          "key": "blessingSanskrit",
+          "label": "Sanskrit blessing (2 lines)",
+          "type": "textarea",
+          "placeholder": "वक्रतुण्ड महाकाय…"
+        },
+        {
+          "key": "blessingsIntro",
+          "label": "English invitation lines",
+          "type": "textarea",
+          "placeholder": "With the blessings of…"
+        },
+        {
+          "key": "bride",
+          "label": "Bride",
+          "type": "group",
+          "fields": [
+            { "key": "name", "label": "First name (display)", "type": "text", "placeholder": "Hemadri" },
+            { "key": "familyLine", "label": "Family line", "type": "text", "placeholder": "Daughter of Mr. & Mrs. …" },
+            { "key": "familySubline", "label": "Subline (optional)", "type": "text", "placeholder": "(Granddaughter of …)" }
+          ]
+        },
+        {
+          "key": "groom",
+          "label": "Groom",
+          "type": "group",
+          "fields": [
+            { "key": "name", "label": "First name (display)", "type": "text", "placeholder": "Ravindra" },
+            { "key": "familyLine", "label": "Family line", "type": "text", "placeholder": "Son of Mr. & Mrs. …" },
+            { "key": "familySubline", "label": "Subline (optional)", "type": "text", "placeholder": "(Grandson of …)" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "saveTheDate",
+      "label": "Save the date (scratch)",
+      "icon": "calendar",
+      "type": "object",
+      "fields": [
+        {
+          "key": "enabled",
+          "label": "Show scratch & countdown",
+          "type": "toggle",
+          "description": "Scratch hearts reveal the date (from your picker), then countdown + confetti. Section wording is fixed by the template."
+        },
+        {
+          "key": "weddingDate",
+          "label": "Wedding date",
+          "type": "date",
+          "description": "Used for the three scratch hearts and the countdown (midnight start of this date, local time)."
+        }
+      ]
+    },
+    {
+      "id": "memories",
+      "label": "Memories",
+      "icon": "video",
+      "type": "object",
+      "fields": [
+        {
+          "key": "enabled",
+          "label": "Show memories section",
+          "type": "toggle"
+        },
+        {
+          "key": "videoSrc",
+          "label": "Portrait video or photo",
+          "type": "media-upload",
+          "uploadFolder": "memories",
+          "description": "Upload MP4/WebM or an image (JPG, PNG, WEBP). Heading and caption are fixed by the template."
+        }
+      ]
+    },
+    {
+      "id": "events",
+      "label": "Events & ceremonies",
+      "icon": "party-popper",
+      "type": "object",
+      "fields": [
+        {
+          "key": "enabled",
+          "label": "Show events section",
+          "type": "toggle"
+        },
+        {
+          "key": "items",
+          "label": "Ceremony cards",
+          "type": "subarray",
+          "itemLabel": "Event",
+          "summaryKey": "title",
+          "defaultItem": {
+            "eventType": "",
+            "inviteStyle": "arch",
+            "backgroundImage": "",
+            "title": "New event",
+            "weekday": "",
+            "dateNumber": "",
+            "monthYear": "",
+            "time": "",
+            "venueOnCard": "",
+            "venueCardLine": "",
+            "mapsUrl": "",
+            "showDividerAfter": true
+          },
+          "fields": [
+            {
+              "key": "eventType",
+              "label": "Event Type",
+              "type": "select",
+              "hidden": true,
+              "description": "Set by the event background picker below."
+            },
+            {
+              "key": "backgroundImage",
+              "label": "Event Type & Background",
+              "type": "event-bg",
+              "dependsOn": "eventType",
+              "description": "Pick the ceremony category, then choose a looping background video for the card (same curated library as Sage & Gold). Static image URLs still work if you paste or deploy custom art."
+            },
+            {
+              "key": "inviteStyle",
+              "label": "Card colour theme",
+              "type": "select",
+              "options": ["arch", "sunset", "light", "dark"],
+              "description": "arch = pink title, sunset = sunset glow, light = light card, dark = gold on dark."
+            },
+            {
+              "key": "title",
+              "label": "Event title",
+              "type": "text",
+              "placeholder": "Mehendi"
+            },
+            {
+              "key": "weekday",
+              "label": "Weekday (top row)",
+              "type": "text",
+              "placeholder": "Monday"
+            },
+            {
+              "key": "dateNumber",
+              "label": "Date number (large)",
+              "type": "text",
+              "placeholder": "15"
+            },
+            {
+              "key": "monthYear",
+              "label": "Month & year",
+              "type": "text",
+              "placeholder": "Jun 2026"
+            },
+            {
+              "key": "time",
+              "label": "Time line",
+              "type": "text",
+              "placeholder": "7:00 PM"
+            },
+            {
+              "key": "venueOnCard",
+              "label": "Venue on invite (short)",
+              "type": "text",
+              "placeholder": "802, Sector 12"
+            },
+            {
+              "key": "venueCardLine",
+              "label": "Venue card label",
+              "type": "text",
+              "placeholder": "Venue: 802, Sector 12"
+            },
+            {
+              "key": "mapsUrl",
+              "label": "Maps / directions link",
+              "type": "url",
+              "placeholder": "https://maps.google.com/?q=…"
+            },
+            {
+              "key": "showDividerAfter",
+              "label": "Show divider after this event",
+              "type": "toggle"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rsvp",
+      "label": "RSVP",
+      "icon": "mail",
+      "type": "object",
+      "fields": [
+        {
+          "key": "enabled",
+          "label": "Show RSVP section",
+          "type": "toggle"
+        },
+        {
+          "key": "clientId",
+          "label": "RSVP backend client ID",
+          "type": "text",
+          "placeholder": "CoupleName-wedding-2026",
+          "description": "Sent with each submission to your RSVP API. Section titles are fixed by the template."
+        }
+      ]
+    },
+    {
+      "id": "footer",
+      "label": "Footer",
+      "icon": "align-justify",
+      "type": "object",
+      "fields": [
+        {
+          "key": "enabled",
+          "label": "Show footer",
+          "type": "toggle"
+        },
+        {
+          "key": "brideName",
+          "label": "Bride first name (large script)",
+          "type": "text"
+        },
+        {
+          "key": "groomName",
+          "label": "Groom first name (large script)",
+          "type": "text"
+        }
+      ]
+    }
+  ]
+}

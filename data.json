@@ -1,0 +1,147 @@
+{
+  "petalsEnabled": true,
+  "audio": {
+    "enabled": true,
+    "src": ""
+  },
+  "entry": {
+    "enabled": true,
+    "videoSrc": "https://pub-1953a6673e864f3488c645252f75de98.r2.dev/may/Hemadri%20%26%20Ravindra/Best%20Entry%20Video%20(35).mp4"
+  },
+  "hero": {
+    "enabled": true,
+    "ganeshImageUrl": "https://pub-1953a6673e864f3488c645252f75de98.r2.dev/Shriya%20%26%20Ashutosh/Vianyak%20png.png",
+    "blessingSanskrit": "वक्रतुण्ड महाकाय सूर्यकोटि समप्रभ\nनिर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा",
+    "blessingsIntro": "With the blessings of the Almighty & our respected elders,\nwe joyfully request your gracious presence on the wedding celebration of",
+    "bride": {
+      "name": "Shubam",
+      "familyLine": "Daughter of Mr. & Mrs. Dr. Arun Kumar Roy",
+      "familySubline": "(Granddaughter of Mr. & Mrs. Dr. R C Roy)"
+    },
+    "groom": {
+      "name": "Vanshika",
+      "familyLine": "Son of Mr. & Mrs. Rakesh Indrasain Hingle",
+      "familySubline": "(Grandson of Late Mr. & Mrs. Indrasain Hingle)"
+    }
+  },
+  "saveTheDate": {
+    "enabled": true,
+    "weddingDate": "2026-06-24"
+  },
+  "memories": {
+    "enabled": true,
+    "videoSrc": "https://pub-1953a6673e864f3488c645252f75de98.r2.dev/may/Hemadri%20%26%20Ravindra/Hemadri%20%26%20Ravindra%20Swiper%20video.mp4"
+  },
+  "events": {
+    "enabled": true,
+    "items": [
+      {
+        "eventType": "mehndi",
+        "inviteStyle": "arch",
+        "backgroundImage": "https://pub-1953a6673e864f3488c645252f75de98.r2.dev/April/Raj%20%26%20Malviha%2028th%20May/353.mp4",
+        "title": "Mehendi",
+        "weekday": "Monday",
+        "dateNumber": "15",
+        "monthYear": "Jun 2026",
+        "time": "7:00 PM",
+        "venueOnCard": "802, Sector 12",
+        "venueCardLine": "Venue: 802, Sector 12",
+        "mapsUrl": "https://maps.google.com/?q=802,Sector+12",
+        "showDividerAfter": true
+      },
+      {
+        "eventType": "muhurtham",
+        "inviteStyle": "sunset",
+        "backgroundImage": "https://pub-1953a6673e864f3488c645252f75de98.r2.dev/April/Raj%20%26%20Malviha%2028th%20May/356.mp4",
+        "title": "Tilak",
+        "weekday": "Wednesday",
+        "dateNumber": "17",
+        "monthYear": "Jun 2026",
+        "time": "11:00 AM Onwards",
+        "venueOnCard": "Gymkhana Club, Sonipat",
+        "venueCardLine": "Venue: Gymkhana Club, Sonipat",
+        "mapsUrl": "https://maps.google.com/?q=Gymkhana+Club,+Sonipat",
+        "showDividerAfter": true
+      },
+      {
+        "eventType": "haldi",
+        "inviteStyle": "light",
+        "backgroundImage": "https://pub-1953a6673e864f3488c645252f75de98.r2.dev/April/Raj%20%26%20Malviha%2028th%20May/355.mp4",
+        "title": "Haldi & Marwa",
+        "weekday": "Monday",
+        "dateNumber": "22",
+        "monthYear": "Jun 2026",
+        "time": "11:00 AM Onwards",
+        "venueOnCard": "Namami Ganges Beach Resort",
+        "venueCardLine": "Venue: Namami Ganges Beach Resort",
+        "mapsUrl": "https://share.google/xNJ0lYCQT2uCA4z9m",
+        "showDividerAfter": true
+      },
+      {
+        "eventType": "sangeet",
+        "inviteStyle": "dark",
+        "backgroundImage": "https://pub-1953a6673e864f3488c645252f75de98.r2.dev/April/Raj%20%26%20Malviha%2028th%20May/356.mp4",
+        "title": "DJ Night",
+        "weekday": "Monday",
+        "dateNumber": "22",
+        "monthYear": "Jun 2026",
+        "time": "8:00 PM Onwards",
+        "venueOnCard": "Namami Ganges Beach Resort",
+        "venueCardLine": "Venue: Namami Ganges Beach Resort",
+        "mapsUrl": "https://share.google/xNJ0lYCQT2uCA4z9m",
+        "showDividerAfter": true
+      },
+      {
+        "eventType": "wedding",
+        "inviteStyle": "dark",
+        "backgroundImage": "https://pub-1953a6673e864f3488c645252f75de98.r2.dev/April/Raj%20%26%20Malviha%2028th%20May/353.mp4",
+        "title": "Jaimal",
+        "weekday": "Tuesday",
+        "dateNumber": "23",
+        "monthYear": "Jun 2026",
+        "time": "5:00 PM",
+        "venueOnCard": "Namami Ganges Beach Resort",
+        "venueCardLine": "Venue: Namami Ganges Beach Resort",
+        "mapsUrl": "https://share.google/xNJ0lYCQT2uCA4z9m",
+        "showDividerAfter": true
+      },
+      {
+        "eventType": "wedding",
+        "inviteStyle": "dark",
+        "backgroundImage": "https://pub-1953a6673e864f3488c645252f75de98.r2.dev/April/Raj%20%26%20Malviha%2028th%20May/355.mp4",
+        "title": "Wedding",
+        "weekday": "Wednesday",
+        "dateNumber": "24",
+        "monthYear": "Jun 2026",
+        "time": "As per muhurat",
+        "venueOnCard": "Namami Ganges Beach Resort",
+        "venueCardLine": "Venue: Namami Ganges Beach Resort",
+        "mapsUrl": "https://share.google/xNJ0lYCQT2uCA4z9m",
+        "showDividerAfter": true
+      },
+      {
+        "eventType": "reception",
+        "inviteStyle": "dark",
+        "backgroundImage": "https://pub-1953a6673e864f3488c645252f75de98.r2.dev/April/Raj%20%26%20Malviha%2028th%20May/356.mp4",
+        "title": "Reception",
+        "weekday": "Sunday",
+        "dateNumber": "28",
+        "monthYear": "Jun 2026",
+        "time": "7:00 PM Onwards",
+        "venueOnCard": "Gymkhana Club, Sonipat",
+        "venueCardLine": "Venue: Gymkhana Club, Sonipat",
+        "mapsUrl": "https://maps.google.com/?q=Gymkhana+Club,+Sonipat",
+        "showDividerAfter": false
+      }
+    ]
+  },
+  "rsvp": {
+    "enabled": true,
+    "clientId": "HemadriwedsRavindra-wedding-2026"
+  },
+  "footer": {
+    "enabled": true,
+    "brideName": "Hemadri",
+    "groomName": "Ravindra"
+  }
+}
